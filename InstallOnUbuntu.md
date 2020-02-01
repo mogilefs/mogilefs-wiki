@@ -1,11 +1,11 @@
-Nov. 2018 update: The following repos from saz seems out-of-date. Use [repos](https://launchpad.net/~gaod/+archive/ubuntu/mogilefs) credited by Hung-Yi Chen (gaod) instead.
+**Warning: The repo seems out-of-date. Consider alternative ways please.**
 
 Install on Ubuntu 
 ==============================
 
 ```
 sudo apt-get install python-software-properties
-sudo add-apt-repository ppa:saz/mogilefs
+sudo add-apt-repository ppa:gaod/mogilefs
 ```
 
 

@@ -1,7 +1,4 @@
-﻿#summary Upgrading MogileFS
-
-
-# Upgrading MogileFS #
+﻿# Upgrading MogileFS #
 
 (note: this only covers upgrades within the 2.x+ series. If you have a 1.x install, consult the mailing list).
 

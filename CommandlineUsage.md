@@ -3,9 +3,7 @@
 # How To Interact with MogileFS #
 
 We'll start with introducing the commandline utilities as a method to
-upload, fetch, and inspect files from MogileFS. If you wish to skip this and
-go straight to the application example, move on to the [AppExample](AppExample.md) page now.
-
+upload, fetch, and inspect files from MogileFS. 
 
 ---
 

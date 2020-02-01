@@ -1,6 +1,3 @@
-﻿#summary MogileFS hardware recommendations
-
-
 # MogileFS Hardware Usage #
 
 ## The Goal ##

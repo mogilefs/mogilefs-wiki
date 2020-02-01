@@ -1,23 +1,24 @@
-
-Install on Docker 
+Using Docker to deploy MogileFS for test 
 ==============================
 In this instruction, we will setup a mogilefs cluster for test.
 
 We use [MAIO - MogileFS All In One](https://github.com/hrchu/mogilefs-all-in-one-docker) here since it provides a way to set up a minimal [MogileFS](https://github.com/mogilefs/mogilefs-wiki) cluster without pain. Tracker, stored and tracker DB are instantiated in a single container. It is suitable for testing and developing scenarios. 
  
-# Howto
-- `docker pull hrchu/mogilefs-all-in-one`
-- `docker run -e DOMAIN_NAME=testdomain -e CLASS_NAMES="testclass1 testclass2" -t -d -p 7001:7001 -p 7500:7500 --name maio hrchu/mogilefs-all-in-one`
+## Howto
 
-Now MogileFS is ready to war on port 7001/7500! 😎
+```
+# docker pull hrchu/mogilefs-all-in-one
+# docker run -e DOMAIN_NAME=testdomain -e CLASS_NAMES="testclass1 testclass2" -t -d -p 7001:7001 -p 7500:7500 --name maio hrchu/mogilefs-all-in-one
+```
+Done! MogileFS is ready to war on port 7001/7500! 😎
 
-Note that we have these configurations:
+Note that in this deployment, we have the following configurations:
 * domain: testdomain
 * class: testclass1, testclass2
 
-You can check it by:
+You can check it's status and connectivity by:
 ```
-#echo '!jobs' |nc localhost 7001 
+# echo '!jobs' |nc localhost 7001 
 delete count 1
 delete desired 1
 delete pids 402

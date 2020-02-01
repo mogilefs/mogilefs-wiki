@@ -1,4 +1,4 @@
-
+# Server Settings Overview
 
 MogileFS supports server settings shared across all trackers.  These
 server settings are stored in the database and not to be confused with

@@ -1,13 +1,12 @@
-﻿#summary Tips for MySQL and MogileFS
+﻿[Back To Maintenance Page](Maintenance.md)
 
-
-[Back To Maintenance Page](Maintenance.md)
+# Tips for MySQL and MogileFS
 
 Most MogileFS instances use MySQL as the metadata store. It's generally a good idea to have more than one of these. Multiple instances can be used for HA (Highly Available) pairs, read slaves for scalability, etc.
 
-# MySQL and HA #
+-------------
 
-If you're wondering about setting up highly available MySQL databases, the best thing you can do for yourself is hire a contractor (percona, openquery, etc), or pick up some books and start reading. There is a **huge** amount of information available related to managing multiple MySQL instances and MySQL replication. Most of it is beyond the scope of this document. We will talk about how it can specifically apply to MogileFS however.
+# MySQL and HA #
 
 If you're wondering about setting up highly available MySQL databases, the best thing you can do for yourself is hire a contractor (percona, openquery, etc), or pick up some books and start reading. There is a **huge** amount of information available related to managing multiple MySQL instances and MySQL replication. Most of it is beyond the scope of this document. We will talk about how it can specifically apply to MogileFS however.
 
@@ -43,11 +42,15 @@ Be **very** careful to not accidentally load balance against the databases. If y
 
 If you're moving a VIP or proxy from master to slave, the key is to do it fast, and make sure replication is caught up at the time of the flip. Tools like flipper manage this for you, so be wary of any automatic failover setups you might use.
 
+-------------
+
 # Database Backups #
 
 You really ought to be familiar with any of the multitude of documentation available to MySQL about backups. This writer finds that maintaining Active/Passive Master/Master pairs is a livesaver. netcat and tar are very quick ways to back up a momentarily stopped database. They also restore very quickly. Then you just have to patch binlogs.
 
 It's important to remember to take backups of the metadata DB. Who knows what hardware failure, software bugs, or operator error have in store for you.
+
+-------------
 
 # MogileFS and MySQL Replication Slaves #
 

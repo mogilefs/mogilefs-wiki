@@ -1,4 +1,4 @@
-
+# Checksum mechanisms
 
 MogileFS 2.60+ implements checksums support.  Checksums can be
 stored in the database on a per-class basis, and/or files without known

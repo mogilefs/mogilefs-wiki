@@ -1,12 +1,9 @@
-
-
 # Simple Application Example #
 
-If you fetch the MogileFS::Server tarball from 2.46 or later, you will find an
+If you fetch the [MogileFS::Server](http://search.cpan.org/dist/MogileFS-Server/) tarball from 2.46 or later, you will find an
 example/testapp/ directory with a few files in it. With this you will see how
 a barebones application would serve up files from MogileFS.
 
-http://search.cpan.org/dist/MogileFS-Server/
 
 ## Overview Reminder ##
 

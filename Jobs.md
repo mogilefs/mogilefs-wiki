@@ -1,7 +1,4 @@
-﻿#summary Maintaining Job Workers
-
-
-[Back To Maintenance Page](Maintenance.md)
+﻿[Back To Maintenance Page](Maintenance.md)
 
 # Understanding the Job Workers #
 

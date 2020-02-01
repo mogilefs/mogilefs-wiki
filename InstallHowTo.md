@@ -1,12 +1,13 @@
 # How To Setup MogileFS #
 
-Author: Brett G. Durrett (first name at last name dot net)
-
 ## Overview ##
 
 This document explains how to set up and configure a basic MogileFS installation. It is intended for the novice systems administrator and should enable anybody with the skills to install a basic Linux distro to get MogileFS up and running on it.
 
-I am going to assume you have three roles for this setup. A machine should be able to handle more than one role. I will use hosts mogiledb.yourdomain.com, mogiletracker.yourdomain.com and mogilestorage.yourdomain.com – rename these to meet your needs.
+If you are new to MogileFS, we recommand you read  [Getting Started Guide](QuickStartGuide.md) first.
+
+
+I am going to assume you have three roles for this setup. A machine should be able to handle more than one role. I will use hosts `mogiledb.yourdomain.com`, `mogiletracker.yourdomain.com` and `mogilestorage.yourdomain.com` – rename these to meet your needs.
 
 ## Getting MySQL Libraries ##
 
@@ -35,6 +36,8 @@ Note that the server actually requires the client software (because it uses the 
 It's highly advisable that you use a released version from CPAN. However, if
 bug hunting or interested, the latest code is on github:
 http://github.com/mogilefs/
+
+[Here](InstallFromCPAN.md) are some more details about installing mogilefs from CPAN, for reference.
 
 ### Installing Perl Module Dependencies ###
 
@@ -236,8 +239,6 @@ tools, or move straight to [AppExample](AppExample.md) to see an example of an a
 using MogileFS.
 
 ## Troubleshooting ##
-
-This section is still very incomplete.  Let me know if you have other common problems that need to be added.
 
 ### When I run mogadm I get "Unable to retrieve host information from tracker(s)" ###
 

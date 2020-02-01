@@ -1,5 +1,3 @@
-
-
 # MogileFS Roadmap #
 
 High level overview of future plans/ideas. There is no set schedule and

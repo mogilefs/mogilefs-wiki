@@ -1,57 +1,64 @@
 # MogileFS #
 
-... is an anagram of OMG FILES! MogileFS is a non-POSIX distributed filestore. See [HighLevelOverview](HighLevelOverview.md) for an intro to what it is. 
+... is an anagram of _OMG FILES!_ 
 
-## Install Guides ##
+MogileFS is a scalable software-defined storage like Ceph, Openstack Swift and GlusterFS. MogileFS is suitable for data-intensive tasks such as cloud storage and media streaming. See [High Level Overview](HighLevelOverview.md) for an intro to what it is. 
 
-  * [Quick Install for Testing/Development](QuickStartGuide.md)
+Read our [Getting Started](QuickStartGuide.md) guide to have a try!
 
-  * [Detailed Install Guide](InstallHowTo.md)
+## Installation ##  
 
-  * [Install From CPAN](InstallFromCPAN.md)
+  * [Install Guide](InstallHowTo.md)
 
+  * [Docker Install Instructions](InstallOnDocker.md)
+  
   * [Ubuntu Install Instructions](InstallOnUbuntu.md)
   
-  * [Docker Install Instructions](InstallOnDocker.md)
-
-  * [HOWTO use Nginx as a reverse proxy](nginx_reverseproxy.md)
-
-  * [Philosophy of Choosing Hardware](Hardware.md)
-
-  * [HOWTO install dedicated storage nodes on Solaris/ZFS](MogileFSonSolaris.md)
-
-## Usage Guides ##
+## Usage ##
 
   * [Using and Inspecting MogileFS From the Terminal](CommandlineUsage.md)
 
   * [Simple Walkthrough for Integrating and Using MogileFS](AppExample.md)
 
-## Configuration Guides ##
+  * [Build Your Application with Client Libraries](Clients.md)
+  
+## Configuration ##
 
   * [Network Aware Replication (multi datacenter)](ConfigureMultiNet.md)
-
-  * [Multiple MogileFS Instance Deployments](MultipleInstanceDeployments.md)
 
   * [Server Settings Overview](ServerSettings.md)
 
 ## Maintenance ##
 
+  * [Maintaining MogileFS](Maintenance.md)
+  
   * [Upgrading MogileFS](Upgrading.md)
 
-  * [Maintaining MogileFS](Maintenance.md)
+## Troubleshooting  ##
 
-## Information ##
+  * [Troubleshooting Common Issues](Troubleshooting.md)
+  
+  * [Getting Help from Mailing List](https://groups.google.com/forum/#!forum/mogile)
+  
+## Reference ##  
 
   * [High Level Overview](HighLevelOverview.md)
 
   * [Quick Overview of Serving a File](ServingOverview.md)
 
   * [DB schema](https://github.com/mogilefs/MogileFS-Server/blob/master/lib/MogileFS/Store.pm#L591)
-  * [Development Roadmap](Roadmap.md)
+  
+  * [Source code](https://github.com/mogilefs)
 
-  * [Using Nginx as a Storage Server](nginx_webdav.md)
+  * [Glossary of Common Terms](Glossary.md)
+    
+## Other Information ##
 
-  * [Client API Implementations](Clients.md)
+  * [Philosophy of Choosing Hardware](Hardware.md)
+
+  * [Using Nginx/Apache2 as a Storage Server](webdav_configuration.md)
+
+  * [Setup a Storage Node on Nexenta/ZFS](MogileFSonNexentaCP.md)
 
   * [3rd party Add-ons or Plugins](Addons.md)
 
@@ -59,9 +66,8 @@
 
   * [Articles about or mentioning MogileFS](Articles.md)
 
-  * [Glossary of Common Terms](Glossary.md)
 
-  * [Troubleshooting Common Issues](Troubleshooting.md)
+
 
 
 ---
@@ -69,4 +75,4 @@
 
 # Contributing #
 
-Have some mogile-y wisdom you want to share? Please do! Just send PR here.
+Have some mogile-y wisdom you want to share? Please do! Just send PR on our [document repo](https://github.com/mogilefs/mogilefs-wiki).

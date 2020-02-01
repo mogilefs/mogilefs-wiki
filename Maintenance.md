@@ -1,18 +1,8 @@
-﻿#summary Common MogileFS Maintenance
+﻿# Common MogileFS Maintenance
 
-
-# Running a Filesystem Check #
-
-See the [FSCK](FSCK.md) guide.
-
-# Rebalancing Files #
-
-See the [Rebalance](Rebalance.md) guide.
-
-# Managing Tracker Jobs #
-
-See the [Jobs](Jobs.md) guide.
-
+* Running a Filesystem Check - See the [FSCK](FSCK.md) guide.
+* Rebalancing Files - See the [Rebalance](Rebalance.md) guide.
+* Managing Tracker Jobs - See the [Jobs](Jobs.md) guide.
 
 ---
 

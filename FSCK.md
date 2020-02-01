@@ -1,7 +1,4 @@
-﻿#summary Running a MogileFS FSCK.
-
-
-[Back To Maintenance Page](Maintenance.md)
+﻿[Back To Maintenance Page](Maintenance.md)
 
 # MogileFS Filesystem Check #
 
@@ -22,6 +19,8 @@ The FSCK is strictly brute force. You cannot focus it to a particular domain, cl
 While you should not need to run a FSCK constantly, or normally, it's healthy to run one occasionally, or after major events. Major software errors, notable upgrades, power outages, etc. All good excuses for running a FSCK. Also, if you edit a class replication policy (add or remove replicas), the changes will not take effect until a FSCK has run.
 
 FSCK can repair bugs in older versions. It can also help recover from situations where you don't have enough unique storage hosts to satisfy replication for a while. FIDs will end up on multiple devices, just not on enough hosts to be happy.
+
+------
 
 # Running a MogileFS FSCK #
 

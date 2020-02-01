@@ -1,11 +1,8 @@
-# Introduction #
+# Quick Overview of Serving a File
 
 Storing and maintaining your MogileFS cluster is the first step.  The last step is to serve the files back out to your users.
 
-# The Basics #
-
 The most typical setup is a perlbal front-end that has a pool of application servers that deliver the data from MogileFS.  Here is the basic path to get from an incoming user request that results in them getting a file out of MogileFS:
-
 
 ## 1. GET /some/path/somefile-123.jpg arrives at Perlbal ##
 

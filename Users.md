@@ -1,10 +1,6 @@
-﻿#summary MogileFS users
-
-# Introduction #
+﻿# MogileFS users
 
 A list of some of the many current users of MogileFS.
-
-# Details #
 
 ## SixApart ##
 

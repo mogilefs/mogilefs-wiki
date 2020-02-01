@@ -1,4 +1,4 @@
-﻿#summary Configuring MogileFS for Multiple Networks
+﻿# Configuring MogileFS for Multiple Networks
 
 
 **Note:** this guide refers to version 2.35 and higher, and also requires modules which may not be on CPAN as of this writing.

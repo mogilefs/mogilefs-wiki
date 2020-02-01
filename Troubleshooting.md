@@ -1,5 +1,3 @@
-
-
 # Where To Look #
 
 If something is going wrong, the first place to look is your app. Are you handling client errors correctly? Are you reporting/logging them anywhere?
@@ -15,6 +13,3 @@ telnet tracker 7001
 
 If you restart the tracker with 'debug = 1' or 'debug = 2', you will get more log messages. It might not be possible to do this at runtime presently. When it is, someone should update this note.
 
-# Issues #
-
-# Error messages #
