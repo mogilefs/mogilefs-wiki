@@ -3,6 +3,7 @@
 * [mackerel plugin](https://github.com/hfm/mackerel-plugin-mogilefs) - MogileFS custom metrics plugin for mackerel.io agent.
 * [Metrics collector for Diamond](https://diamond.readthedocs.io/en/latest/collectors/MogilefsCollector/) - MogileFS metrics collector for Diamond.
 * [mogilefs-exporter](https://github.com/KKBOX/mogilefs-exporter) - Prometheus Exporter for MogileFS
+* [Munin Plugins](https://github.com/squeeks/MogileFS-munin) - Mogilefs metrics for Munin
 
 ----
 
