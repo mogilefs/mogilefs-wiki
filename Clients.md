@@ -9,7 +9,7 @@ Since MogileFS is a non-POSIX distributed service, it's easier to use one of cli
   * [moji](https://github.com/lastfm/moji) - A file-like MogileFS client for Java
 
 ### Ruby ###
-  * [mogilefs-client](http://bogomips.org/mogilefs-client/) - A MogileFS client library for Ruby
+  * [mogilefs-client](https://yhbt.net/mogilefs-client/) - A MogileFS client library for Ruby
   
 ### PHP ###
   * [mogilefs](http://pecl.php.net/package/mogilefs/) - PHP client library to communicate with the MogileFS storage
