@@ -199,7 +199,7 @@ If it runs into fids it cannot rebalance for some reason, the information is
 sent to syslog (or !watch if you telnet to a tracker).
 
 ## Optimizing ##
-Most of the optimizations for an FSCK apply to a rebalance so see: http://code.google.com/p/mogilefs/wiki/FSCK#Tuning_FSCK for tips on speeding up the process.
+Most of the optimizations for an FSCK apply to a rebalance so see: https://github.com/mogilefs/mogilefs-docs/blob/master/FSCK.md#tuning-fsck for tips on speeding up the process.
 
 Basically increase the number of replicate jobs across your trackers.
 ```
